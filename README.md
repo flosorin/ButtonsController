@@ -1,4 +1,4 @@
-# FourMatrix
+# ButtonsController
 
 Arduino library to control five buttons using only one analog pin (and ground). 
 
