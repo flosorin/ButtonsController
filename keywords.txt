@@ -1,0 +1,29 @@
+#######################################
+# Syntax Coloring Map FourMatrix
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ButtonsController	KEYWORD1
+ButtonsValue		KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+buttonValueToString	KEYWORD2
+updateButtonValue	KEYWORD2
+getButtonValue		KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+NONE		LITERAL1
+LEFT		LITERAL1
+CENTER		LITERAL1
+RIGHT		LITERAL1
+UP		LITERAL1
+DOWN		LITERAL1
