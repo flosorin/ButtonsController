@@ -89,13 +89,13 @@ ButtonsValue ButtonsController::readButton()
   buttonRawValue = buttonRawValue / 4;
  
   // Map raw value to the corresponding button
-  if (buttonRawValue >= 228 && buttonRawValue <= 235)
+  if (buttonRawValue >= 228 && buttonRawValue <= 240)
     buttonFormattedValue = LEFT;
-  else if (buttonRawValue >= 360 && buttonRawValue <= 365)
+  else if (buttonRawValue >= 360 && buttonRawValue <= 380)
     buttonFormattedValue = CENTER;
   else if (buttonRawValue >= 455 && buttonRawValue <= 470)
     buttonFormattedValue = RIGHT;
-  else if (buttonRawValue >= 525 && buttonRawValue <= 535)
+  else if (buttonRawValue >= 525 && buttonRawValue <= 545)
     buttonFormattedValue = UP;
   else if (buttonRawValue >= 575 && buttonRawValue <= 650)
     buttonFormattedValue = DOWN;
